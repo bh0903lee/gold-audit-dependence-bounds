@@ -1,0 +1,149 @@
+{
+  "description": "SHA-256 digests of every file in manuscript/supplement/ except this one; checked by scripts/recompute_values.py",
+  "files": [
+    {
+      "path": "check_stored_certificates.py",
+      "sha256": "18f8742889e8ec066b4bf86445b935156c8abf23f7a392cd25a084335e0d9281"
+    },
+    {
+      "path": "empty_set_witnesses.csv",
+      "sha256": "b242a302efe6bdc5f96f2da6465d9eb4ce783474c75fe7e8bc1bcf112efbefe8"
+    },
+    {
+      "path": "extension_numbers.json",
+      "sha256": "c449ede1d0c6537d2c1d5538192e046fcdd582511c2b3faf0ec68d6b570e0034"
+    },
+    {
+      "path": "extensions/application_sensitivity_B200.json",
+      "sha256": "c5298ea8215d1077980fe085c48620c52a5b95ae9bba45d3125e458560808aa4"
+    },
+    {
+      "path": "extensions/application_sensitivity_B50.json",
+      "sha256": "96f04b6d8454a1ecb86f1ab92210085d1a5ff90992c9eeb8be9d1fa8558e7b67"
+    },
+    {
+      "path": "extensions/application_summary.json",
+      "sha256": "d84fecb3b28de5667289855202f7b30f717974346adb0060de526418c9d74353"
+    },
+    {
+      "path": "extensions/application_thinning_summary.json",
+      "sha256": "60f0fd743eee156f5b2604fc34944b7dd389da1b8ecfffe0326ccbcfff95518c"
+    },
+    {
+      "path": "extensions/fp_budget_summary.json",
+      "sha256": "3f57371a0e60f9c3abbb09cb662845f861392383ea01c41a5542522462d57c56"
+    },
+    {
+      "path": "extensions/fp_certificate_verification.json",
+      "sha256": "b145273a9d75db4fa475d272cf3b1c29e44e1bbbc93a71d7b9cb8aca365dc60e"
+    },
+    {
+      "path": "extensions/fp_gap_certificate.json",
+      "sha256": "512574f0bd3c05fe620adbac3d8d19f0425bf21602df00a4903fd5f0957dbd90"
+    },
+    {
+      "path": "extensions/fp_gluing_certificate.json",
+      "sha256": "bee15827a4b9b4bfa59a458e3f1331a00d204390ff06cfea4341cc558453c032"
+    },
+    {
+      "path": "extensions/fp_population_rows.jsonl",
+      "sha256": "18a0ac75f846804bedbbbc4da7ed11854eb8098a8e3a2f5f60c579cdfd56a2b6"
+    },
+    {
+      "path": "extensions/fp_population_summary.json",
+      "sha256": "0a6ceee4504a010bef9adff7680023d95b3151dd0e731de4f8496f4f0a817c99"
+    },
+    {
+      "path": "extensions/laws_summary.json",
+      "sha256": "33153e040c7dadcc8ded17401f1d30bfed1527c1d388dbbb1b5218daaab0ff85"
+    },
+    {
+      "path": "extensions/overlap_summary.json",
+      "sha256": "bcd3971183c816449a3d05eeb5d2ec7d2604fcd396c05746653c25935eb51a2a"
+    },
+    {
+      "path": "extensions/paired_budget_summary.json",
+      "sha256": "2aa7df11a723ba7d301cb2c2a0c15b12a1e67cb1b6cfcadcb5173250df662d4a"
+    },
+    {
+      "path": "extensions/room_occupancy_manifest.json",
+      "sha256": "d9ca953da288b822fe6bfc2ff5dc0daca2e8d543fee65cca571f37cff4d43141"
+    },
+    {
+      "path": "extensions/sphere_summary.json",
+      "sha256": "8b11bea3afe564533ebe1161967be92271e38426599fb8bb1013b361d314f8b8"
+    },
+    {
+      "path": "extensions/verify_fp_certificates.py",
+      "sha256": "fe027edc732c00ea04fed251f0eb89ccd1f066bec51e624fb3776e073c96a518"
+    },
+    {
+      "path": "main_study_full_audit_fallbacks.csv",
+      "sha256": "24f5640f90805f224eed963b87eb46c0a2da134d3594ebe4e0fa12f155baef63"
+    },
+    {
+      "path": "main_study_independent_replay.json",
+      "sha256": "b0e9377597201cf0ec53371793cc32e2492840d6d555ffddbb33fa692bb8e0e9"
+    },
+    {
+      "path": "main_study_input_manifest.json",
+      "sha256": "33249d767ea09974294f3e1874429c41a2efc7ac30eb3428e39d3f738c3a803f"
+    },
+    {
+      "path": "main_study_rows.csv",
+      "sha256": "0fdc83f4f4bc8fa8178e65244db364d48c019a5debec4328975543f8722935d2"
+    },
+    {
+      "path": "main_study_slack_attribution.json",
+      "sha256": "c8fb050992c7cca40a871f37032581d5317c7cb343a7ff41183f96f78cbc0441"
+    },
+    {
+      "path": "main_study_summary.json",
+      "sha256": "ae9157c83c8de5165be20b710c567f57277c67969a9f033194fa1d05c56bb8e0"
+    },
+    {
+      "path": "population_summary.json",
+      "sha256": "68da0f76d28771be5b847b457d847515cfd2dc44cf3bba2ace0c5ae3783f0cc3"
+    },
+    {
+      "path": "reported_values.json",
+      "sha256": "6519d10f66781f5388e26b7f471855d60908c979d8a92ac36a8183e21a9783fe"
+    },
+    {
+      "path": "sixvar_violation_numbers.json",
+      "sha256": "5aaaa9d3b985aaabc443415ce1c5c822e5fa6500686c1802bfaa728a80d2cc79"
+    },
+    {
+      "path": "sixvar_violations/analysis_common.py",
+      "sha256": "baa06b7d6c0fc49930de7a311204f9d7135a88f94d90575c9badc76e2d65aaa9"
+    },
+    {
+      "path": "sixvar_violations/analysis_sixvar.json",
+      "sha256": "66ae78ab13b06d40305177d784214a212b0113154581378997219046a146d05c"
+    },
+    {
+      "path": "sixvar_violations/analysis_violations.json",
+      "sha256": "4ca6ae9ce929ab3fad03475c6049b3d976c50923cf4f54de7f1caa194368f2e3"
+    },
+    {
+      "path": "sixvar_violations/analyze_sixvar.py",
+      "sha256": "49bde984c4fd3779c75cde8c4e7d07d617e8f03469db37f70f3e7cb137068f10"
+    },
+    {
+      "path": "sixvar_violations/analyze_violations.py",
+      "sha256": "f92754dccfb1de275c2c08e5047c6e025172d9c769d9cd357fed4eec65052d58"
+    },
+    {
+      "path": "sixvar_violations/reanalysis_main_arrays.py",
+      "sha256": "fd1abddd7b9a68a1a20e70592a587842ffbf67818295ec317fe0292c11064743"
+    },
+    {
+      "path": "verify_theorem.json",
+      "sha256": "7a444cde28d37255ee00738df267e3d449c0a931e25631f15fedcf2432a7e3d9"
+    },
+    {
+      "path": "verify_theorem.py",
+      "sha256": "46e85396487538f50c1d3752efa8d97353ffb0339bec2fd3d65370ee047ba39c"
+    }
+  ]
+}

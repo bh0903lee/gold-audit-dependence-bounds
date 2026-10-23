@@ -1,0 +1,27 @@
+{
+  "dataset_name": "room_occupancy_estimation",
+  "source_url": "https://archive.ics.uci.edu/dataset/864/room+occupancy+estimation",
+  "download_url": "https://archive.ics.uci.edu/static/public/864/room+occupancy+estimation.zip",
+  "doi": "10.24432/C5P605",
+  "license": "CC BY 4.0 (UCI page, 2026-10-14): 'This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.' Citation: Singh, A. & Chaudhari, S. (2018). Room Occupancy Estimation [Dataset]. UCI Machine Learning Repository.",
+  "gold_source": "Room_Occupancy_Count recorded manually ('noted manually' per the UCI page), independent of the PIR sensors",
+  "units_evidence": "One room (6 m x 4.6 m) recorded on seven calendar dates (2017-12-22..26, 2018-01-10..11); evaluation unit is the unit-day, windows never cross a day",
+  "selection_conditions": {"public_license": true, "independent_gold": true, "fixed_detector": true, "multiple_units": true},
+  "sha256": "dd6ba81fe1e4dea392f2e7d77fab522bd9b833b615af084fc5c6b827f9ddb84c",
+  "source_files": {
+    "room_occupancy_estimation.zip": "a0db79ee96ea297c22458ac77a28fba20d41246e75d24b2655ca3ab624cc08fd",
+    "extracted/Occupancy_Estimation.csv": "c090ee5c94b61762bfec9d22767864490b51030f98cca030f02822468db25d9c",
+    "derived_60s/occupancy_60s.csv": "dd6ba81fe1e4dea392f2e7d77fab522bd9b833b615af084fc5c6b827f9ddb84c",
+    "resampling_script": "scripts/resample_occupancy_60s.py sha256 e395171dbe22a091245f44a958f7143b2352f070b284b2492d11d343c519786e"
+  },
+  "resampling": "Native readings are 30/31 s apart; resampled to exact 60 s bins (count = max, PIR = max/OR within each local clock minute; empty minutes omitted, no interpolation)",
+  "timestamp_column": "timestamp",
+  "timestamp_format": "iso",
+  "timezone": "Asia/Kolkata",
+  "unit_column": "unit",
+  "count_column": "count",
+  "detector": {"type": "pir_or", "columns": ["S6_PIR", "S7_PIR"], "provenance": "PIR motion sensors S6/S7 recorded in the raw file; no training"},
+  "lag_seconds": 60,
+  "stationarity_rationale": "Primary stratum restricted to local weekday 09:00-17:00 (fixed by the design before the data were opened); within that stratum occupancy of a single room is treated as approximately stationary; the empirical reference's stationarity residual is recorded and the reference is left undefined if the exact LP is empty or fails (no projection)",
+  "missing_policy": "rows with invalid values dropped; empty 60 s bins omitted; windows require three consecutive 60 s instants within one unit-day"
+}
