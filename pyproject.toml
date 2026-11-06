@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audit-dependence-bounds"
+version = "1.0.0"
+description = "Simulation experiments for sharp temporal-dependence bounds from isolated gold audits"
+license = "MIT"
+license-files = ["LICENSE", "DATA_LICENSE.md"]
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.2.6", "scipy==1.15.3"]
+
+[project.optional-dependencies]
+extensions = ["sympy==1.13.1", "mpmath==1.3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

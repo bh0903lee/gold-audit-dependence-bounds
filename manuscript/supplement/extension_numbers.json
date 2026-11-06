@@ -1,0 +1,157 @@
+{
+ "d2": {
+  "decision": "large_loss_excluded",
+  "practical": "nonvacuous_tested_cells",
+  "replicates": 13000,
+  "dropped_columns": {
+   "learned_coverage": [
+    0.999,
+    1.0
+   ],
+   "learned_mc_interval": [
+    0.9919349615815318,
+    1.0
+   ],
+   "plugin_coverage": [
+    0.999,
+    1.0
+   ]
+  },
+  "cells": {
+   "0.2,0": {
+    "learned": 1.0,
+    "naive": 1.0
+   },
+   "0.2,0.02": {
+    "learned": 1.0,
+    "naive": 0.997
+   },
+   "0.2,0.1": {
+    "learned": 1.0,
+    "naive": 0.442
+   },
+   "0.5,0": {
+    "learned": 1.0,
+    "naive": 1.0
+   },
+   "0.5,0.02": {
+    "learned": 0.999,
+    "naive": 0.999
+   },
+   "0.5,0.1": {
+    "learned": 1.0,
+    "naive": 0.539
+   },
+   "0.8,0": {
+    "learned": 1.0,
+    "naive": 1.0
+   },
+   "0.8,0.02": {
+    "learned": 0.999,
+    "naive": 0.996
+   },
+   "0.8,0.1": {
+    "learned": 1.0,
+    "naive": 0.573
+   }
+  }
+ },
+ "d1": {
+  "counts": {
+   "law_windows": 740,
+   "comparisons": 2960,
+   "lp_failures": 0,
+   "equivalence_failures": 0,
+   "recovery_failures": 0,
+   "nesting_failures": 0,
+   "exact_certificate_failures": 0,
+   "n8_word_equivalence_failures": 0,
+   "m8_pair_equivalence_failures": 0
+  },
+  "h1": "exact_witness",
+  "witness": {
+   "seed": 310002,
+   "epsilon": "133/360",
+   "gaps": {
+    "lower": "0",
+    "upper": "11/45"
+   },
+   "verified": true,
+   "N6": [
+    "-22/45",
+    "23/45"
+   ],
+   "F": [
+    "-22/45",
+    "4/15"
+   ]
+  }
+ },
+ "e8": {
+  "h8a": "not_detected",
+  "h8b": {
+   "thin_10": "large_loss_excluded",
+   "block_200": "large_loss_excluded"
+  },
+  "selection": "thin_10",
+  "min_naive_coverage": 1.0
+ },
+ "e9": {
+  "h9b": "prediction_consistent",
+  "success": 61,
+  "total": 80,
+  "A_narrower": 36,
+  "C_narrower": 25,
+  "h9a_below": []
+ },
+ "e7": {
+  "frame": 904,
+  "unit_days": 4,
+  "theta": 0.9977876106194691,
+  "f": 0.00663716814159292,
+  "fn": 0.23545706371191136,
+  "residual": 0.0011061946902654867,
+  "intervals": {
+   "M": {
+    "status": "ok",
+    "lower": 0.3982300884955756,
+    "upper": 0.9999999999999997,
+    "residual": 3.3306690738754696e-16
+   },
+   "N": {
+    "status": "ok",
+    "lower": 0.743362831858407,
+    "upper": 0.995575221238938,
+    "residual": 1.1102230246251565e-16
+   },
+   "F": {
+    "status": "ok",
+    "lower": 0.747787610619469,
+    "upper": 0.9955752212389382,
+    "residual": 6.938893903907228e-18
+   }
+  },
+  "width_B200": {
+   "M": 1.4585272762839427,
+   "N": 1.2691504810627747,
+   "F": 0.7822954334617903
+  },
+  "width_B50": {
+   "M": 1.9408320644689816,
+   "N": 1.8695428067859614,
+   "F": 1.429596374137414
+  },
+  "containment_B200": {
+   "M": 1.0,
+   "N": 1.0,
+   "F": 1.0
+  },
+  "criterion": "descriptive_criterion_met",
+  "handoff": {
+   "method": "thin_10",
+   "frame": 92,
+   "criterion": "not_evaluable"
+  },
+  "gate": "dependent_inference_required"
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "smoke_only": false,
+  "counts": {
+    "law_windows": 740,
+    "comparisons": 2960,
+    "lp_failures": 0,
+    "equivalence_failures": 0,
+    "recovery_failures": 0,
+    "nesting_failures": 0,
+    "exact_certificate_failures": 0,
+    "n8_word_equivalence_failures": 0,
+    "m8_pair_equivalence_failures": 0
+  },
+  "elapsed_seconds": 49.0863594696857,
+  "h1": "exact_witness",
+  "theorem_status": "candidate_pending_independent_proof_and_literature_review"
+}
