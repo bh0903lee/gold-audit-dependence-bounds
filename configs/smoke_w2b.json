@@ -1,0 +1,44 @@
+{
+  "topic": "C11",
+  "stage": "smoke",
+  "experiment": "w2b",
+  "protocol_version": "W2-2026-10-13",
+  "alpha": 0.05,
+  "episodes": 3000,
+  "stay": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "lengths": [
+    3
+  ],
+  "audit_budgets": [
+    100,
+    500
+  ],
+  "axes": [
+    "V1",
+    "V2a",
+    "V2b",
+    "V3a",
+    "V3b",
+    "V4a",
+    "V4b",
+    "V5",
+    "V6"
+  ],
+  "methods": [
+    "word/exact_binomial",
+    "sixvar/exact_binomial",
+    "word/hoeffding"
+  ],
+  "seeds": [
+    21301,
+    21302,
+    21303,
+    21304,
+    21305,
+    21306
+  ]
+}

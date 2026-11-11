@@ -1,0 +1,149 @@
+{
+  "version": "0.2",
+  "baseline_hashes": {
+    "configs/protocol.json": "db410e8ff78ade5f51ae91c3158de044506e7cb8dee0694ee2a8e831a3edf426",
+    "src/c11_upgrade/__init__.py": "b45c89074c462b40777cffc55ec7aaf6fdd5d3985ebbda8528fb1ad7e6567b98",
+    "src/c11_upgrade/adapter.py": "592ad9e46b9207f86157805c2758a3823318730019a2469c7b8e0a2dbf25eeb5",
+    "src/c11_upgrade/cli.py": "25da363ce2e1f160f4148bebf22e5e95689a36a6d6b6228702197f3ec45a088c",
+    "src/c11_upgrade/inference.py": "283a27382b7fd2f7f38e7c916414c8a32c9b00f8cfd40a0fb713381b3b60e58d",
+    "src/c11_upgrade/population.py": "92e4b3a32da1a3cf8c7b45bee58a85bb82a5e9e2c7a3a48db38049a95d0737fa"
+  },
+  "alpha_moment_learned": 0.04,
+  "alpha_moment_known_zero": 0.05,
+  "alpha_calibration": 0.01,
+  "constraint_counts": {
+    "M": 9,
+    "N": 11,
+    "F": 24
+  },
+  "tolerance": 1e-08,
+  "smoke_seeds": [
+    990001,
+    990003
+  ],
+  "workers": 1,
+  "max_workers": 8,
+  "max_memory_gib": 8,
+  "max_cpu_seconds": 28800,
+  "max_wall_seconds": 7200,
+  "max_output_gib": 2,
+  "e8": {
+    "design_id": 3,
+    "record_length": 10002,
+    "n_obs": 10000,
+    "audit_size": 500,
+    "calibration_size": 500,
+    "seeds": [
+      440001,
+      441000
+    ],
+    "primary_stay": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "primary_phi": [
+      0,
+      0.02
+    ],
+    "detect": [
+      0.95,
+      0.2
+    ],
+    "auxiliary": {
+      "prevalence": 0.2,
+      "rho": 0.6,
+      "phi": 0.02
+    },
+    "thin_k": [
+      3,
+      10
+    ],
+    "block_lengths": [
+      50,
+      200
+    ],
+    "methods": [
+      "iid",
+      "naive_overlap",
+      "thin_3",
+      "thin_10",
+      "block_50",
+      "block_200"
+    ],
+    "h8a_mc_error": 0.008333333333333333,
+    "h8b_mc_error": 0.004166666666666667,
+    "bootstrap_repetitions": 10000
+  },
+  "e9": {
+    "design_id": 4,
+    "bank_a_seeds": [
+      300001,
+      300040
+    ],
+    "bank_c_seeds": [
+      310041,
+      310080
+    ],
+    "excluded_c_seeds": [
+      310001,
+      310040
+    ],
+    "seeds": [
+      450001,
+      450200
+    ],
+    "n_obs": 10000,
+    "budgets": [
+      200,
+      500,
+      2000
+    ],
+    "information": [
+      "M",
+      "N",
+      "F"
+    ],
+    "h9b_required_laws": 60,
+    "h9b_total_laws": 80
+  },
+  "e7": {
+    "design_id": 5,
+    "sensitivity_design_id": 6,
+    "seeds": [
+      460001,
+      461000
+    ],
+    "budgets": [
+      50,
+      200,
+      500
+    ],
+    "calibration_multiplier": 1,
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "start_hour": 9,
+    "end_hour": 17,
+    "lag_multipliers": [
+      1,
+      5
+    ],
+    "block_length": 200,
+    "thin_k": 10,
+    "always_learned": true,
+    "reference_policy": "raw_no_stationarization",
+    "theta": "first_pair_spin",
+    "dataset_priority": [
+      "room_occupancy_estimation",
+      "occupancy_detection"
+    ],
+    "allowed_source_hosts": [
+      "archive.ics.uci.edu"
+    ]
+  }
+}

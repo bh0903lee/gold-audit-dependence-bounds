@@ -1,0 +1,318 @@
+{
+  "inference_scope": "finite_population_descriptive",
+  "lags": [
+    {
+      "inference_scope": "finite_population_descriptive",
+      "scientific_verdict": "NOT_EVALUATED",
+      "frame_size": 92,
+      "unit_days": 4,
+      "method": "thin_10",
+      "gate": {
+        "status": "dependent_inference_required",
+        "reasons": [
+          "IID episode design is not documented",
+          "Row 0: dependence requires different inference",
+          "Row 1: dependence requires different inference",
+          "Row 2: dependence requires different inference",
+          "Row 3: dependence requires different inference"
+        ],
+        "coverage_enabled": false,
+        "source_hash_verified": true,
+        "assumption_caveat": "Eligibility is conditional on documented assumptions; IID/stationarity are not certified.",
+        "probe_rows": 4,
+        "gate_scope": "schema_contract_probe_not_full_cohort",
+        "inference_scope": "finite_population_descriptive"
+      },
+      "reference": {
+        "theta": 1.0,
+        "f": 0.010869565217391304,
+        "intervals": {
+          "M": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          },
+          "N": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          },
+          "F": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          }
+        },
+        "stationarity_residual": 0.03260869565217391,
+        "theta_definition": "first_pair_spin_on_treated_eligible_frame",
+        "false_negative_rate": 0.24324324324324326
+      },
+      "groups": [
+        {
+          "budget": 50,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 50,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 50,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        }
+      ],
+      "complete_eligible_grid": false,
+      "width_reductions": [
+        {
+          "budget": 50,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 50,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 200,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 200,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 500,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 500,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        }
+      ],
+      "application_criterion": "not_evaluable",
+      "lag_multiplier": 1,
+      "excluded": {
+        "outside_fixed_stratum": 4324
+      },
+      "source_sha256": "dd6ba81fe1e4dea392f2e7d77fab522bd9b833b615af084fc5c6b827f9ddb84c"
+    },
+    {
+      "inference_scope": "finite_population_descriptive",
+      "scientific_verdict": "NOT_EVALUATED",
+      "frame_size": 88,
+      "unit_days": 4,
+      "method": "thin_10",
+      "gate": {
+        "status": "dependent_inference_required",
+        "reasons": [
+          "IID episode design is not documented",
+          "Row 0: dependence requires different inference",
+          "Row 1: dependence requires different inference",
+          "Row 1: overlapping windows in a unit",
+          "Row 2: dependence requires different inference",
+          "Row 2: overlapping windows in a unit",
+          "Row 3: dependence requires different inference",
+          "Row 3: overlapping windows in a unit"
+        ],
+        "coverage_enabled": false,
+        "source_hash_verified": true,
+        "assumption_caveat": "Eligibility is conditional on documented assumptions; IID/stationarity are not certified.",
+        "probe_rows": 4,
+        "gate_scope": "schema_contract_probe_not_full_cohort",
+        "inference_scope": "finite_population_descriptive"
+      },
+      "reference": {
+        "theta": 0.9772727272727273,
+        "f": 0.0,
+        "intervals": {
+          "M": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          },
+          "N": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          },
+          "F": {
+            "status": "empty",
+            "lower": null,
+            "upper": null,
+            "residual": 0.0
+          }
+        },
+        "stationarity_residual": 0.022727272727272728,
+        "theta_definition": "first_pair_spin_on_treated_eligible_frame",
+        "false_negative_rate": 0.2571428571428571
+      },
+      "groups": [
+        {
+          "budget": 50,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 50,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 50,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 200,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "M",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "N",
+          "status": "insufficient_population",
+          "n": 0
+        },
+        {
+          "budget": 500,
+          "info": "F",
+          "status": "insufficient_population",
+          "n": 0
+        }
+      ],
+      "complete_eligible_grid": false,
+      "width_reductions": [
+        {
+          "budget": 50,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 50,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 200,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 200,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 500,
+          "comparison": "N_vs_M",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        },
+        {
+          "budget": 500,
+          "comparison": "F_vs_N",
+          "value": null,
+          "undefined_reason": "missing_or_zero_denominator"
+        }
+      ],
+      "application_criterion": "not_evaluable",
+      "lag_multiplier": 5,
+      "excluded": {
+        "outside_fixed_stratum": 4324
+      },
+      "source_sha256": "dd6ba81fe1e4dea392f2e7d77fab522bd9b833b615af084fc5c6b827f9ddb84c"
+    }
+  ],
+  "quota_stop": [],
+  "selection": {
+    "method": "thin_10",
+    "e8_run": "e8_full",
+    "manifest_sha256": "e563590d35c2956e7a88eb724c15ad1b20eae3a3da3e6dbe0959b400f56cd23e",
+    "summary_sha256": "bcd3971183c816449a3d05eeb5d2ec7d2604fcd396c05746653c25935eb51a2a",
+    "coverage_certification": false
+  }
+}

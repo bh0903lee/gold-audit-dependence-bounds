@@ -1,0 +1,79 @@
+{
+  "protocol_id": "paired-fp-budget-comparison",
+  "input_hashes": {
+    "paired_budget/src/c11_followup/__init__.py": "2c8bce8db63dd910bbad99d1b6824580a2555336ae090e94c8ea1e160949373a",
+    "paired_budget/src/c11_followup/p2.py": "fd1b07f5056ac69b6a63b1d6f1fb4a384da6251abd195a10bd88c36620484f9a",
+    "paired_budget/src/c11_followup/p2_cli.py": "656ac428aa9b0abb30dd823c86a9b90bb63f78ce4767659422a7f7795976e842",
+    "paired_budget/src/c11_followup/p2_safety.py": "0c72f71620778821fb0fee71c1aa2b652b2bbce6323c8feccc78c3fa91bf8a4c",
+    "paired_budget/src/c11_followup/runtime.py": "c688bf61ef0a8bf903b790e6d3554d4738ab1bf88aba482b682383aea2912f9f",
+    "extensions/src/c11_upgrade/addendum_core.py": "e75ce902fd717f6430a6d418e27a6b5852e8bdc831fa0e8a706107703e872ffc",
+    "extensions/src/c11_upgrade/e9.py": "9ee34bd551cf5945f45ac18967349bd1acc4cec5a4305ef977cee8eb1a65f328",
+    "extensions/src/c11_upgrade/inference.py": "283a27382b7fd2f7f38e7c916414c8a32c9b00f8cfd40a0fb713381b3b60e58d",
+    "extensions/src/c11_upgrade/population.py": "92e4b3a32da1a3cf8c7b45bee58a85bb82a5e9e2c7a3a48db38049a95d0737fa"
+  },
+  "law_seeds": [
+    310041,
+    310080
+  ],
+  "known_zero_law_seeds": [
+    310068,
+    310080
+  ],
+  "confirmatory_seeds": [
+    480001,
+    480200
+  ],
+  "fixture_seeds": [
+    990001,
+    990002,
+    990003
+  ],
+  "n_obs": 10000,
+  "budgets": [
+    200,
+    500,
+    2000
+  ],
+  "calibration_n": "budget",
+  "condition_id": "3 * zero_based_law_index + budget_index",
+  "sample_stream": "SeedSequence([20261014,11,8,condition_id,seed,cohort]); cohort observation=0,audit=1,calibration=2",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 202610150803,
+    "law_resampling_sensitivity_seed": 202610150804,
+    "quantile_method": "linear",
+    "method": "paired percentile; per-law shared replicate index across four arms and M/N/F"
+  },
+  "h1": {
+    "one_sided_alpha": 0.025,
+    "point_threshold": 0.05,
+    "lower_bound_threshold_strict": 0
+  },
+  "reference": "fixed Theta_I(P,f*); sample-epsilon population intervals auxiliary only",
+  "fallback": "width 2 for empty and solver failure; raw versus fallback coverage kept separate",
+  "solver_tolerances": {
+    "primal_feasibility": 1e-09,
+    "dual_feasibility": 1e-09,
+    "residual_acceptance": 1e-07
+  },
+  "resources": {
+    "workers": 1,
+    "cpu_limit_seconds": 7200,
+    "memory_limit_kib": 4194304,
+    "per_solver_seconds": "the reused LP solver has no time limit; a process-wide CPU hard cap applies"
+  },
+  "reuse_functions": [
+    "population.periodic_law",
+    "population.lp_interval",
+    "population.law_limits",
+    "inference.cp_upper",
+    "inference.cp_interval",
+    "addendum_core.rng",
+    "addendum_core.population_references",
+    "addendum_core.solve_information",
+    "addendum_core.interval_metrics",
+    "addendum_core.make_problem",
+    "addendum_core.validate_law",
+    "e9.sample_words"
+  ]
+}
