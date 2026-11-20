@@ -1,0 +1,1735 @@
+{
+ "cohort": "caltech",
+ "settings": {
+  "replicates": 1000,
+  "sensitivity_replicates": 300,
+  "bootstrap": 1000,
+  "inner_bootstrap": 200,
+  "alpha": 0.05
+ },
+ "description": {
+  "routine_visits": 181008,
+  "participants": 140,
+  "households": 140,
+  "record_positive": 30371,
+  "record_positive_reference_negative": 271,
+  "reference_positive": 55149,
+  "reference_positive_record_negative": 25049,
+  "median_days_between_visits": 1.0,
+  "share_of_gaps_21_to_35_days": 0.0
+ },
+ "pools": {
+  "all windows": {
+   "windows": 60286,
+   "participants": 139,
+   "households": 139,
+   "prevalence": 0.3043603268862865,
+   "record_prevalence": 0.1676398058145064,
+   "miss_rate": 0.45412927369836137,
+   "false_positive_share": 0.008938289521422211,
+   "corr": 0.7699963642721546,
+   "corr_record": 0.5567730799782514,
+   "distance_to_stationary": 0.0021563878844176113,
+   "population": {
+    "M": {
+     "theta_lower": 0.1929208889293278,
+     "theta_upper": 1.0,
+     "theta_width": 0.8070791110706722,
+     "lower": 0.04709420920405644,
+     "upper": 0.9999999999999999,
+     "width": 0.9529057907959434
+    },
+    "N": {
+     "theta_lower": 0.4265636060322301,
+     "theta_upper": 0.8713467184793459,
+     "theta_width": 0.44478311244711577,
+     "lower": 0.3229525421118431,
+     "upper": 0.848101065577948,
+     "width": 0.5251485234661049
+    },
+    "F": {
+     "theta_lower": 0.430371160046666,
+     "theta_upper": 0.8709520150263298,
+     "theta_width": 0.4405808549796638,
+     "lower": 0.3274480620916764,
+     "upper": 0.8476350453317701,
+     "width": 0.5201869832400938
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.19570047431045345,
+     "theta_upper": 1.0000000000000002,
+     "theta_width": 0.8042995256895468,
+     "lower": 0.049378148680541224,
+     "upper": 1.0000000000000002,
+     "width": 0.950621851319459
+    },
+    "N": {
+     "theta_lower": 0.4267988931235775,
+     "theta_upper": 0.8709484989171616,
+     "theta_width": 0.44414960579358415,
+     "lower": 0.3225191859586475,
+     "upper": 0.8474707830148887,
+     "width": 0.5249515970562412
+    },
+    "F": {
+     "theta_lower": 0.43117803128885657,
+     "theta_upper": 0.8702850309527258,
+     "theta_width": 0.43910699966386924,
+     "lower": 0.32769499956650994,
+     "upper": 0.8466866135301405,
+     "width": 0.5189916139636306
+    }
+   },
+   "bootstrap": {
+    "corr": {
+     "lo": 0.6878537333341904,
+     "hi": 0.8384052737580685
+    },
+    "corr_record": {
+     "lo": 0.4765681546047191,
+     "hi": 0.6038868109568931
+    },
+    "M": {
+     "lo": 0.7606997848691286,
+     "hi": 1.5043424867864312
+    },
+    "N": {
+     "lo": 0.3605604482951229,
+     "hi": 0.9462053644915904
+    },
+    "F": {
+     "lo": 0.3541410059837973,
+     "hi": 0.9426256816779374
+    },
+    "M_minus_N": {
+     "lo": 0.35328981275087923,
+     "hi": 0.5917124917139179
+    },
+    "N_minus_F": {
+     "lo": 0.0016608112232699228,
+     "hi": 0.008340173382772244
+    },
+    "reduction_N_vs_M": {
+     "lo": 0.34925668983456004,
+     "hi": 0.5348813350541949
+    },
+    "N_lower": {
+     "lo": -0.0937263075132877,
+     "hi": 0.4671212050748821
+    },
+    "N_upper": {
+     "lo": 0.7766658047538546,
+     "hi": 0.9198822851222643
+    }
+   }
+  },
+  "one window per participant": {
+   "windows": 139,
+   "participants": 139,
+   "households": 139,
+   "prevalence": 0.829736211031175,
+   "record_prevalence": 0.42685851318944845,
+   "miss_rate": 0.4884393063583815,
+   "false_positive_share": 0.0056179775280898875,
+   "corr": 0.45414199596428295,
+   "corr_record": 0.356180888092849,
+   "distance_to_stationary": 0.039568345323741004,
+   "population": {
+    "M": {
+     "theta_lower": 0.3221783680390065,
+     "theta_upper": 0.9999999999999999,
+     "theta_width": 0.6778216319609933,
+     "lower": -0.20402927707641527,
+     "upper": 0.9999999999999998,
+     "width": 1.204029277076415
+    },
+    "N": {
+     "theta_lower": 0.32217836803900635,
+     "theta_upper": 0.8510364085066962,
+     "theta_width": 0.5288580404676898,
+     "lower": -0.20402927707641558,
+     "upper": 0.7353927391524878,
+     "width": 0.9394220162289034
+    },
+    "F": {
+     "theta_lower": 0.3221783360390399,
+     "theta_upper": 0.8510364045082234,
+     "theta_width": 0.5288580684691835,
+     "lower": -0.20402933391865055,
+     "upper": 0.7353927320499138,
+     "width": 0.9394220659685644
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.28057553556834575,
+     "theta_upper": 0.9999999999999999,
+     "theta_width": 0.7194244644316541,
+     "lower": -0.21929825239333328,
+     "upper": 0.9999999999999998,
+     "width": 1.2192982523933331
+    },
+    "N": {
+     "theta_lower": 0.28057553556834536,
+     "theta_upper": 0.8561151279136695,
+     "theta_width": 0.5755395923453241,
+     "lower": -0.21929825239333395,
+     "upper": 0.7561403847736847,
+     "width": 0.9754386371670187
+    },
+    "F": {
+     "theta_lower": 0.2805754995683455,
+     "theta_upper": 0.856115123913669,
+     "theta_width": 0.5755396243453235,
+     "lower": -0.21929831340701794,
+     "upper": 0.7561403779943856,
+     "width": 0.9754386914014035
+    }
+   },
+   "bootstrap": {
+    "corr": {
+     "lo": 0.2918244944326012,
+     "hi": 0.5918377933242986
+    },
+    "corr_record": {
+     "lo": 0.24003367966086442,
+     "hi": 0.46977609086780336
+    },
+    "M": {
+     "lo": 1.1401647914305475,
+     "hi": 1.2740743491664002
+    },
+    "N": {
+     "lo": 0.7693533621068069,
+     "hi": 1.0792683779146217
+    },
+    "F": {
+     "lo": 0.7693289041173564,
+     "hi": 1.0756397563517346
+    },
+    "M_minus_N": {
+     "lo": 0.14930548844332345,
+     "hi": 0.41290656892610117
+    },
+    "N_minus_F": {
+     "lo": -1.0803334959674782e-07,
+     "hi": 0.017655297446253274
+    },
+    "reduction_N_vs_M": {
+     "lo": 0.12319514754051672,
+     "hi": 0.3486279357039451
+    },
+    "N_lower": {
+     "lo": -0.2740743260681357,
+     "hi": -0.14016479143054722
+    },
+    "N_upper": {
+     "lo": 0.5870934175281011,
+     "hi": 0.850694512169605
+    }
+   }
+  },
+  "every second sequence": {
+   "windows": 36146,
+   "participants": 136,
+   "households": 136,
+   "prevalence": 0.3044412475331526,
+   "record_prevalence": 0.1682067172024567,
+   "miss_rate": 0.4525187047526732,
+   "false_positive_share": 0.009100877192982457,
+   "corr": 0.6877095940649287,
+   "corr_record": 0.45818322796955474,
+   "distance_to_stationary": 0.002047252808056247,
+   "population": {
+    "M": {
+     "theta_lower": 0.13872638753549602,
+     "theta_upper": 1.0,
+     "theta_width": 0.861273612464504,
+     "lower": -0.016497411406641,
+     "upper": 1.0,
+     "width": 1.016497411406641
+    },
+    "N": {
+     "theta_lower": 0.38018875261973956,
+     "theta_upper": 0.821400655881102,
+     "theta_width": 0.44121190326136245,
+     "lower": 0.2684827220934719,
+     "upper": 0.7892124310458126,
+     "width": 0.5207297089523407
+    },
+    "F": {
+     "theta_lower": 0.38320370913794866,
+     "theta_upper": 0.8214006558833382,
+     "theta_width": 0.43819694674538956,
+     "lower": 0.27204105181809174,
+     "upper": 0.7892124310484518,
+     "width": 0.51717137923036
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.14325234540696044,
+     "theta_upper": 0.9999999999999998,
+     "theta_width": 0.8567476545930394,
+     "lower": -0.013049677061498363,
+     "upper": 0.9999999999999999,
+     "width": 1.0130496770614983
+    },
+    "N": {
+     "theta_lower": 0.38029100988568565,
+     "theta_upper": 0.8215017036002878,
+     "theta_width": 0.4412106937146022,
+     "lower": 0.2672334859140987,
+     "upper": 0.7889371035282844,
+     "width": 0.5217036176141857
+    },
+    "F": {
+     "theta_lower": 0.3838321919320532,
+     "theta_upper": 0.821059054344492,
+     "theta_width": 0.4372268624124388,
+     "lower": 0.2714207087319921,
+     "upper": 0.7884136989023931,
+     "width": 0.516992990170401
+    }
+   }
+  },
+  "detector threshold 0.80": {
+   "windows": 60286,
+   "participants": 139,
+   "households": 139,
+   "prevalence": 0.3043603268862865,
+   "record_prevalence": 0.2572570746110208,
+   "miss_rate": 0.1668241107437416,
+   "false_positive_share": 0.014271283340855848,
+   "corr": 0.7699963642721546,
+   "corr_record": 0.6296078639047344,
+   "distance_to_stationary": 0.002595959260856586,
+   "population": {
+    "M": {
+     "theta_lower": 0.49852997966634005,
+     "theta_upper": 0.8881038759771144,
+     "theta_width": 0.3895738963107743,
+     "lower": 0.40792175146995824,
+     "upper": 0.8678858985733798,
+     "width": 0.4599641471034216
+    },
+    "N": {
+     "theta_lower": 0.7085164962084918,
+     "theta_upper": 0.8335530396963484,
+     "theta_width": 0.12503654348785664,
+     "lower": 0.6558497309860182,
+     "upper": 0.8034785316494811,
+     "width": 0.14762880066346296
+    },
+    "F": {
+     "theta_lower": 0.7194722069280739,
+     "theta_upper": 0.8330576927762012,
+     "theta_width": 0.11358548584812733,
+     "lower": 0.6687849768655945,
+     "upper": 0.8028936828549303,
+     "width": 0.13410870598933589
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.501675327510201,
+     "theta_upper": 0.8867564748698541,
+     "theta_width": 0.38508114735965304,
+     "lower": 0.4111352601632119,
+     "upper": 0.8661813820480075,
+     "width": 0.45504612188479565
+    },
+    "N": {
+     "theta_lower": 0.7065653397280961,
+     "theta_upper": 0.830375235491889,
+     "theta_width": 0.12380989576379287,
+     "lower": 0.653251515690008,
+     "upper": 0.7995562966551892,
+     "width": 0.1463047809651813
+    },
+    "F": {
+     "theta_lower": 0.7174468167448493,
+     "theta_upper": 0.8301098259061139,
+     "theta_width": 0.1126630091612646,
+     "lower": 0.6661100364220746,
+     "upper": 0.7992426650906578,
+     "width": 0.13313262866858322
+    }
+   }
+  },
+  "detector threshold 0.85": {
+   "windows": 60286,
+   "participants": 139,
+   "households": 139,
+   "prevalence": 0.3043603268862865,
+   "record_prevalence": 0.21939864424023267,
+   "miss_rate": 0.28772299531301093,
+   "false_positive_share": 0.01189516129032258,
+   "corr": 0.7699963642721546,
+   "corr_record": 0.5808740353251723,
+   "distance_to_stationary": 0.002289088677304843,
+   "population": {
+    "M": {
+     "theta_lower": 0.35183989013424555,
+     "theta_upper": 0.947204282046346,
+     "theta_width": 0.5953643919121004,
+     "lower": 0.23468907527456723,
+     "upper": 0.937661792026938,
+     "width": 0.7029727167523707
+    },
+    "N": {
+     "theta_lower": 0.605865784358809,
+     "theta_upper": 0.846721425788045,
+     "theta_width": 0.240855641429236,
+     "lower": 0.5346285332172523,
+     "upper": 0.8190172989895301,
+     "width": 0.2843887657722778
+    },
+    "F": {
+     "theta_lower": 0.6130240141451675,
+     "theta_upper": 0.8467214277896726,
+     "theta_width": 0.23369741364450514,
+     "lower": 0.5430805674813323,
+     "upper": 0.8190173013529392,
+     "width": 0.2759367338716069
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.35314996507116103,
+     "theta_upper": 0.947914952791759,
+     "theta_width": 0.5947649877205979,
+     "lower": 0.23568322531542016,
+     "upper": 0.9384564069848487,
+     "width": 0.7027731816694285
+    },
+    "N": {
+     "theta_lower": 0.6039544476280402,
+     "theta_upper": 0.846465206629465,
+     "theta_width": 0.24251075900142482,
+     "lower": 0.5320333263174205,
+     "upper": 0.818583579293243,
+     "width": 0.2865502529758225
+    },
+    "F": {
+     "theta_lower": 0.6126463655621539,
+     "theta_upper": 0.8462661794401348,
+     "theta_width": 0.23361981387798092,
+     "lower": 0.5423036800663473,
+     "upper": 0.8183484091437352,
+     "width": 0.27604472907738786
+    }
+   }
+  },
+  "detector threshold 0.95": {
+   "windows": 60286,
+   "participants": 139,
+   "households": 139,
+   "prevalence": 0.3043603268862865,
+   "record_prevalence": 0.09705957159760696,
+   "miss_rate": 0.6824292409984377,
+   "false_positive_share": 0.004158596331320497,
+   "corr": 0.7699963642721546,
+   "corr_record": 0.5361840933791764,
+   "distance_to_stationary": 0.0018578111004213277,
+   "population": {
+    "M": {
+     "theta_lower": 0.0044135657081594525,
+     "theta_upper": 1.0,
+     "theta_width": 0.9955864342918406,
+     "lower": -0.17564350561786304,
+     "upper": 1.0,
+     "width": 1.1756435056178631
+    },
+    "N": {
+     "theta_lower": 0.17977277475401615,
+     "theta_upper": 0.9216776700441224,
+     "theta_width": 0.7419048952901062,
+     "lower": 0.03143034368753447,
+     "upper": 0.9075126625012898,
+     "width": 0.8760823188137553
+    },
+    "F": {
+     "theta_lower": 0.18031132347883047,
+     "theta_upper": 0.9216776620465166,
+     "theta_width": 0.7413663385676861,
+     "lower": 0.03206629179708971,
+     "upper": 0.9075126530572747,
+     "width": 0.8754463612601849
+    }
+   },
+   "population_total_variation": {
+    "M": {
+     "theta_lower": 0.005208486120823499,
+     "theta_upper": 1.0000000000000002,
+     "theta_width": 0.9947915138791767,
+     "lower": -0.17517295980594064,
+     "upper": 1.0000000000000002,
+     "width": 1.1751729598059408
+    },
+    "N": {
+     "theta_lower": 0.1802076447408687,
+     "theta_upper": 0.9226686369449625,
+     "theta_width": 0.7424609922040938,
+     "lower": 0.03155807511927867,
+     "upper": 0.9086464595452372,
+     "width": 0.8770883844259585
+    },
+    "F": {
+     "theta_lower": 0.1815346666697409,
+     "theta_upper": 0.9225359421520752,
+     "theta_width": 0.7410012754823343,
+     "lower": 0.03312572046619058,
+     "upper": 0.9084897037523575,
+     "width": 0.8753639832861669
+    }
+   }
+  }
+ },
+ "methods": [
+  {
+   "pool": "all windows",
+   "labels": 200,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.7735790765686965,
+     "positive": 0.0
+    },
+    "finite-sample N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.7491509091391113,
+     "positive": 0.0
+    },
+    "finite-sample F": {
+     "replicates": 1000,
+     "empty_rate": 0.002,
+     "coverage": 0.998,
+     "width": 1.5001116966886894,
+     "positive": 0.0
+    },
+    "plug-in M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.997,
+     "width": 1.0195529943706843,
+     "positive": 0.51
+    },
+    "percentile M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.49163547206096,
+     "positive": 0.023
+    },
+    "Imbens-Manski M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3430930123957037,
+     "positive": 0.056
+    },
+    "plug-in N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.643,
+     "width": 0.5808187219462039,
+     "positive": 0.894
+    },
+    "percentile N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.985,
+     "width": 1.2284774317886227,
+     "positive": 0.16
+    },
+    "Imbens-Manski N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.958,
+     "width": 1.0266334192476552,
+     "positive": 0.377
+    },
+    "plug-in F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.981,
+     "width": 0.7661598329639793,
+     "positive": 0.83
+    },
+    "percentile F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.4514996589688545,
+     "positive": 0.037
+    },
+    "Imbens-Manski F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.1789061084161694,
+     "positive": 0.198
+    },
+    "record alone": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.11303044720290839,
+     "positive": 1.0,
+     "median_estimate": 0.5487435564533962,
+     "median_absolute_error": 0.22125280781875833
+    },
+    "adjacent-pair audit": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.929,
+     "width": 0.30984658587327024,
+     "positive": 0.998,
+     "median_estimate": 0.76661334080135,
+     "median_absolute_error": 0.05101761772739932
+    },
+    "HMM, one-sided error": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.481,
+     "width": 0.10811405027669004,
+     "positive": 1.0,
+     "median_estimate": 0.7222099446324134,
+     "median_absolute_error": 0.04778641963974117
+    },
+    "HMM, false positives": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.698,
+     "width": 0.10981734805286697,
+     "positive": 1.0,
+     "median_estimate": 0.8106075731514468,
+     "median_absolute_error": 0.04181079712036584
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.428,
+     "width": 0.11079928451599513,
+     "positive": 1.0,
+     "median_estimate": 0.7173503451068235,
+     "median_absolute_error": 0.052646019165331126
+    },
+    "HMM, two latent classes": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.01,
+     "width": 0.6221984721736675,
+     "positive": 0.484,
+     "median_estimate": 0.3871316788815166,
+     "median_absolute_error": 0.38286468539063795
+    }
+   }
+  },
+  {
+   "pool": "all windows",
+   "labels": 400,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5351251108332031,
+     "positive": 0.0
+    },
+    "finite-sample N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5011191243557542,
+     "positive": 0.0
+    },
+    "finite-sample F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.261767054043727,
+     "positive": 0.016
+    },
+    "plug-in M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0206612017984338,
+     "positive": 0.511
+    },
+    "percentile M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.4762107752919371,
+     "positive": 0.031
+    },
+    "Imbens-Manski M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.319828476385293,
+     "positive": 0.062
+    },
+    "plug-in N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.755,
+     "width": 0.5799762807403609,
+     "positive": 0.92
+    },
+    "percentile N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.987,
+     "width": 1.1661366107473305,
+     "positive": 0.259
+    },
+    "Imbens-Manski N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.967,
+     "width": 0.9851166223945605,
+     "positive": 0.458
+    },
+    "plug-in F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.979,
+     "width": 0.7169523123631787,
+     "positive": 0.874
+    },
+    "percentile F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3565155743589299,
+     "positive": 0.112
+    },
+    "Imbens-Manski F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0999528868449062,
+     "positive": 0.347
+    },
+    "record alone": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.11293232575776259,
+     "positive": 1.0,
+     "median_estimate": 0.5498052866660259,
+     "median_absolute_error": 0.22019107760612872
+    },
+    "adjacent-pair audit": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.916,
+     "width": 0.24313156671751177,
+     "positive": 1.0,
+     "median_estimate": 0.7641106007910816,
+     "median_absolute_error": 0.04347685869093432
+    },
+    "HMM, one-sided error": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.565,
+     "width": 0.10769427062359997,
+     "positive": 1.0,
+     "median_estimate": 0.7271134437876909,
+     "median_absolute_error": 0.04299438973735603
+    },
+    "HMM, false positives": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.723,
+     "width": 0.11135423251829349,
+     "positive": 1.0,
+     "median_estimate": 0.8096821100529834,
+     "median_absolute_error": 0.04009589423098825
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.459,
+     "width": 0.111245607082494,
+     "positive": 1.0,
+     "median_estimate": 0.7183151101288037,
+     "median_absolute_error": 0.05168125414335095
+    },
+    "HMM, two latent classes": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.001,
+     "width": 0.5937899519344838,
+     "positive": 0.501,
+     "median_estimate": 0.38732161975065416,
+     "median_absolute_error": 0.3826747445215004
+    }
+   }
+  },
+  {
+   "pool": "all windows",
+   "labels": 1000,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3196938306042256,
+     "positive": 0.008
+    },
+    "finite-sample N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.999,
+     "width": 1.2702181860343078,
+     "positive": 0.009
+    },
+    "finite-sample F": {
+     "replicates": 1000,
+     "empty_rate": 0.002,
+     "coverage": 0.998,
+     "width": 1.0390084169567564,
+     "positive": 0.426
+    },
+    "plug-in M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0261674241586343,
+     "positive": 0.522
+    },
+    "percentile M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.4639515734006454,
+     "positive": 0.017
+    },
+    "Imbens-Manski M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3069177922085864,
+     "positive": 0.072
+    },
+    "plug-in N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.858,
+     "width": 0.5883906052935413,
+     "positive": 0.929
+    },
+    "percentile N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.999,
+     "width": 1.107744517304133,
+     "positive": 0.302
+    },
+    "Imbens-Manski N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.997,
+     "width": 0.9453369499170077,
+     "positive": 0.536
+    },
+    "plug-in F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.995,
+     "width": 0.664712973372826,
+     "positive": 0.923
+    },
+    "percentile F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.2351436633596617,
+     "positive": 0.215
+    },
+    "Imbens-Manski F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0092955129239016,
+     "positive": 0.457
+    },
+    "record alone": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.1115705080980478,
+     "positive": 1.0,
+     "median_estimate": 0.5489466441687632,
+     "median_absolute_error": 0.2210497201033914
+    },
+    "adjacent-pair audit": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.9,
+     "width": 0.18782034958190877,
+     "positive": 1.0,
+     "median_estimate": 0.7621810742947094,
+     "median_absolute_error": 0.03384488218513532
+    },
+    "HMM, one-sided error": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.68,
+     "width": 0.10795644401984124,
+     "positive": 1.0,
+     "median_estimate": 0.7319620789094788,
+     "median_absolute_error": 0.03833206554638302
+    },
+    "HMM, false positives": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.802,
+     "width": 0.11242602634928366,
+     "positive": 1.0,
+     "median_estimate": 0.8016425146258737,
+     "median_absolute_error": 0.03393128487911684
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.386,
+     "width": 0.11139927035046139,
+     "positive": 1.0,
+     "median_estimate": 0.712224746703727,
+     "median_absolute_error": 0.05777161756842758
+    },
+    "HMM, two latent classes": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.5681787977190427,
+     "positive": 0.513,
+     "median_estimate": 0.38536899165728167,
+     "median_absolute_error": 0.3846273726148729
+    }
+   }
+  },
+  {
+   "pool": "all windows",
+   "labels": 2000,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 1000,
+     "empty_rate": 0.001,
+     "coverage": 0.999,
+     "width": 1.2132516828356497,
+     "positive": 0.058
+    },
+    "finite-sample N": {
+     "replicates": 1000,
+     "empty_rate": 0.001,
+     "coverage": 0.999,
+     "width": 1.1325019470445497,
+     "positive": 0.157
+    },
+    "finite-sample F": {
+     "replicates": 1000,
+     "empty_rate": 0.001,
+     "coverage": 0.999,
+     "width": 0.9002778227860837,
+     "positive": 0.747
+    },
+    "plug-in M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0202859854980992,
+     "positive": 0.56
+    },
+    "percentile M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.4513097125817749,
+     "positive": 0.024
+    },
+    "Imbens-Manski M": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.2933497896201502,
+     "positive": 0.07
+    },
+    "plug-in N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.941,
+     "width": 0.5876197310921127,
+     "positive": 0.944
+    },
+    "percentile N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.071790474661034,
+     "positive": 0.353
+    },
+    "Imbens-Manski N": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.9108350661366165,
+     "positive": 0.583
+    },
+    "plug-in F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.992,
+     "width": 0.6257543754843989,
+     "positive": 0.944
+    },
+    "percentile F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.1581548764603327,
+     "positive": 0.313
+    },
+    "Imbens-Manski F": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.9476039506076647,
+     "positive": 0.544
+    },
+    "record alone": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.11201948316768458,
+     "positive": 1.0,
+     "median_estimate": 0.5505119599322947,
+     "median_absolute_error": 0.21948440433985977
+    },
+    "adjacent-pair audit": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.886,
+     "width": 0.16747835459266078,
+     "positive": 1.0,
+     "median_estimate": 0.7663367674029709,
+     "median_absolute_error": 0.02937215953566269
+    },
+    "HMM, one-sided error": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.831,
+     "width": 0.11512649389230288,
+     "positive": 1.0,
+     "median_estimate": 0.7477632177837197,
+     "median_absolute_error": 0.02747580097760216
+    },
+    "HMM, false positives": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.848,
+     "width": 0.11865330585208517,
+     "positive": 1.0,
+     "median_estimate": 0.79510197693084,
+     "median_absolute_error": 0.03082502760829281
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.359,
+     "width": 0.11400691686361054,
+     "positive": 1.0,
+     "median_estimate": 0.7104209971454667,
+     "median_absolute_error": 0.05957536712668793
+    },
+    "HMM, two latent classes": {
+     "replicates": 1000,
+     "empty_rate": 0.0,
+     "coverage": 0.0,
+     "width": 0.5550297958101282,
+     "positive": 0.55,
+     "median_estimate": 0.3935967327116742,
+     "median_absolute_error": 0.37639963156048034
+    }
+   }
+  }
+ ],
+ "sensitivity": [
+  {
+   "pool": "every second sequence",
+   "labels": 400,
+   "truth": 0.6877095940649287,
+   "results": {
+    "finite-sample M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5899727216991855,
+     "positive": 0.0
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5422981600722343,
+     "positive": 0.0
+    },
+    "finite-sample F": {
+     "replicates": 300,
+     "empty_rate": 0.0033333333333333335,
+     "coverage": 0.9966666666666667,
+     "width": 1.3094049027395869,
+     "positive": 0.0
+    },
+    "plug-in M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.073337541266333,
+     "positive": 0.33
+    },
+    "percentile M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5363780063105883,
+     "positive": 0.0033333333333333335
+    },
+    "Imbens-Manski M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3789741738114158,
+     "positive": 0.016666666666666666
+    },
+    "plug-in N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.8233333333333334,
+     "width": 0.5793158098181439,
+     "positive": 0.8866666666666667
+    },
+    "percentile N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9966666666666667,
+     "width": 1.1649900862163278,
+     "positive": 0.18333333333333332
+    },
+    "Imbens-Manski N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9966666666666667,
+     "width": 0.9956815073416903,
+     "positive": 0.36666666666666664
+    },
+    "plug-in F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.99,
+     "width": 0.7059856684687056,
+     "positive": 0.8533333333333334
+    },
+    "percentile F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3581185937074043,
+     "positive": 0.05333333333333334
+    },
+    "Imbens-Manski F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0994090353208041,
+     "positive": 0.22
+    }
+   }
+  },
+  {
+   "pool": "detector threshold 0.80",
+   "labels": 400,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.234802773408724,
+     "positive": 0.09666666666666666
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.210424839129882,
+     "positive": 0.08333333333333333
+    },
+    "finite-sample F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.8073388252321685,
+     "positive": 0.9666666666666667
+    },
+    "plug-in M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.8733333333333333,
+     "width": 0.5187928394969566,
+     "positive": 0.98
+    },
+    "percentile M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9966666666666667,
+     "width": 0.995100566765297,
+     "positive": 0.5133333333333333
+    },
+    "Imbens-Manski M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9933333333333333,
+     "width": 0.8454463793478175,
+     "positive": 0.7533333333333333
+    },
+    "plug-in N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.49333333333333335,
+     "width": 0.168069638594787,
+     "positive": 1.0
+    },
+    "percentile N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.94,
+     "width": 0.5744380579300047,
+     "positive": 0.9666666666666667
+    },
+    "Imbens-Manski N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.8833333333333333,
+     "width": 0.4720879433670379,
+     "positive": 0.9966666666666667
+    },
+    "plug-in F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9133333333333333,
+     "width": 0.3387827228313603,
+     "positive": 1.0
+    },
+    "percentile F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.8284524980078993,
+     "positive": 0.8666666666666667
+    },
+    "Imbens-Manski F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.6388776925752214,
+     "positive": 0.9766666666666667
+    }
+   }
+  },
+  {
+   "pool": "detector threshold 0.85",
+   "labels": 400,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 300,
+     "empty_rate": 0.0033333333333333335,
+     "coverage": 0.9966666666666667,
+     "width": 1.3842804179007677,
+     "positive": 0.0
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0033333333333333335,
+     "coverage": 0.9966666666666667,
+     "width": 1.3458224728994366,
+     "positive": 0.0
+    },
+    "finite-sample F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.998692361575412,
+     "positive": 0.57
+    },
+    "plug-in M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9866666666666667,
+     "width": 0.7685800885911424,
+     "positive": 0.84
+    },
+    "percentile M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.2511832798027502,
+     "positive": 0.16666666666666666
+    },
+    "Imbens-Manski M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0913445677863998,
+     "positive": 0.38
+    },
+    "plug-in N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.6266666666666667,
+     "width": 0.31783682699393284,
+     "positive": 0.9966666666666667
+    },
+    "percentile N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9833333333333333,
+     "width": 0.8231719410067436,
+     "positive": 0.7333333333333333
+    },
+    "Imbens-Manski N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9533333333333334,
+     "width": 0.6805805144555213,
+     "positive": 0.9266666666666666
+    },
+    "plug-in F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.94,
+     "width": 0.4644373531459502,
+     "positive": 0.99
+    },
+    "percentile F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.0366781520976949,
+     "positive": 0.5633333333333334
+    },
+    "Imbens-Manski F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 0.8030927360102628,
+     "positive": 0.8466666666666667
+    }
+   }
+  },
+  {
+   "pool": "detector threshold 0.95",
+   "labels": 400,
+   "truth": 0.7699963642721546,
+   "results": {
+    "finite-sample M": {
+     "replicates": 300,
+     "empty_rate": 0.01,
+     "coverage": 0.99,
+     "width": 1.6893172831875953,
+     "positive": 0.0
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.006666666666666667,
+     "coverage": 0.9933333333333333,
+     "width": 1.6628024607859844,
+     "positive": 0.0
+    },
+    "finite-sample F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.532520485821008,
+     "positive": 0.0
+    },
+    "plug-in M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.2587437712214706,
+     "positive": 0.023333333333333334
+    },
+    "percentile M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.6751634722339928,
+     "positive": 0.0
+    },
+    "Imbens-Manski M": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.537106496084794,
+     "positive": 0.0
+    },
+    "plug-in N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.98,
+     "width": 0.9553969095951448,
+     "positive": 0.45666666666666667
+    },
+    "percentile N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.5112269987639504,
+     "positive": 0.0033333333333333335
+    },
+    "Imbens-Manski N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3357020957666783,
+     "positive": 0.023333333333333334
+    },
+    "plug-in F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.045860991143728,
+     "positive": 0.3
+    },
+    "percentile F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.626247634425909,
+     "positive": 0.0
+    },
+    "Imbens-Manski F": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.4100495010489495,
+     "positive": 0.013333333333333334
+    }
+   }
+  }
+ ],
+ "equivalent_laws": {
+  "corr_low": 0.327448082598468,
+  "corr_high": 0.8476350116893968,
+  "max_difference_of_observable_moments": 6.99999894854253e-10,
+  "windows": 60286,
+  "labels": 400,
+  "minimal_expected_width": 0.4681682361818359,
+  "low": {
+   "finite-sample M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.482544114442321,
+    "positive": 0.0
+   },
+   "finite-sample N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.4473266465763577,
+    "positive": 0.0
+   },
+   "finite-sample F": {
+    "replicates": 1000,
+    "empty_rate": 0.001,
+    "coverage": 0.999,
+    "width": 1.2098899914344545,
+    "positive": 0.002
+   },
+   "plug-in M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 0.9648243400700409,
+    "positive": 0.698
+   },
+   "percentile M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.1067467863572373,
+    "positive": 0.062
+   },
+   "Imbens-Manski M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.082433841976744,
+    "positive": 0.115
+   },
+   "plug-in N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.606,
+    "width": 0.5308521997051439,
+    "positive": 0.999
+   },
+   "percentile N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.996,
+    "width": 0.842066362405434,
+    "positive": 0.898
+   },
+   "Imbens-Manski N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.955,
+    "width": 0.7876528952412105,
+    "positive": 0.926
+   },
+   "plug-in F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.93,
+    "width": 0.6810619116965252,
+    "positive": 0.997
+   },
+   "percentile F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 0.9653279979720034,
+    "positive": 0.658
+   },
+   "Imbens-Manski F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.997,
+    "width": 0.8768538440532256,
+    "positive": 0.893
+   },
+   "record alone": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.01395651735125496,
+    "positive": 1.0,
+    "median_estimate": 0.5561894156361675,
+    "median_absolute_error": 0.22874133303769945
+   },
+   "adjacent-pair audit": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.951,
+    "width": 0.2794458580581642,
+    "positive": 0.994,
+    "median_estimate": 0.33184916903754014,
+    "median_absolute_error": 0.044693964024925176
+   },
+   "HMM, one-sided error": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.02007348304894272,
+    "positive": 1.0,
+    "median_estimate": 0.7301403929234602,
+    "median_absolute_error": 0.4026923103249922
+   },
+   "HMM, false positives": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.027891619054509362,
+    "positive": 1.0,
+    "median_estimate": 0.8140751225405565,
+    "median_absolute_error": 0.4866270399420885
+   },
+   "HMM, detection depends on previous state": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.02015244376800199,
+    "positive": 1.0,
+    "median_estimate": 0.7231951233751379,
+    "median_absolute_error": 0.39574704077666983
+   },
+   "HMM, two latent classes": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.597,
+    "width": 0.18463053028626308,
+    "positive": 1.0,
+    "median_estimate": 0.40431976734161634,
+    "median_absolute_error": 0.07694413549277401
+   }
+  },
+  "high": {
+   "finite-sample M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.4807607646521344,
+    "positive": 0.0
+   },
+   "finite-sample N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.4440320691269453,
+    "positive": 0.0
+   },
+   "finite-sample F": {
+    "replicates": 1000,
+    "empty_rate": 0.001,
+    "coverage": 0.999,
+    "width": 1.2028867570557156,
+    "positive": 0.003
+   },
+   "plug-in M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 0.9654272117554118,
+    "positive": 0.701
+   },
+   "percentile M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.1079630232389113,
+    "positive": 0.061
+   },
+   "Imbens-Manski M": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 1.0833200235640026,
+    "positive": 0.11
+   },
+   "plug-in N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.435,
+    "width": 0.5299379942332062,
+    "positive": 1.0
+   },
+   "percentile N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.947,
+    "width": 0.8408455343766057,
+    "positive": 0.922
+   },
+   "Imbens-Manski N": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.88,
+    "width": 0.7880684571139568,
+    "positive": 0.947
+   },
+   "plug-in F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.853,
+    "width": 0.6723137802566314,
+    "positive": 0.998
+   },
+   "percentile F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 0.9594507482163613,
+    "positive": 0.681
+   },
+   "Imbens-Manski F": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 1.0,
+    "width": 0.8684725975069623,
+    "positive": 0.897
+   },
+   "record alone": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.013933599391968905,
+    "positive": 1.0,
+    "median_estimate": 0.5562147644285291,
+    "median_absolute_error": 0.2914202472608677
+   },
+   "adjacent-pair audit": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.931,
+    "width": 0.1589390685382208,
+    "positive": 1.0,
+    "median_estimate": 0.8463751439809941,
+    "median_absolute_error": 0.027563254292646888
+   },
+   "HMM, one-sided error": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.020017971675947543,
+    "positive": 1.0,
+    "median_estimate": 0.7297839705196538,
+    "median_absolute_error": 0.11785104116974304
+   },
+   "HMM, false positives": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.005,
+    "width": 0.027823782209364004,
+    "positive": 1.0,
+    "median_estimate": 0.8138560713476717,
+    "median_absolute_error": 0.03377894034172513
+   },
+   "HMM, detection depends on previous state": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.02014908817923458,
+    "positive": 1.0,
+    "median_estimate": 0.7230132758387611,
+    "median_absolute_error": 0.12462173585063568
+   },
+   "HMM, two latent classes": {
+    "replicates": 1000,
+    "empty_rate": 0.0,
+    "coverage": 0.0,
+    "width": 0.1837877609875456,
+    "positive": 1.0,
+    "median_estimate": 0.40779396387677413,
+    "median_absolute_error": 0.4398410478126227
+   }
+  }
+ },
+ "two_class_start_check": {
+  "replicates": 100,
+  "few_starts": 4,
+  "many_starts": 24,
+  "median_difference": 0.0013706408105919332,
+  "share_within_0_02": 0.99,
+  "largest_difference": 0.050712038039678164
+ }
+}

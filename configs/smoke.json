@@ -1,0 +1,38 @@
+{
+  "episodes": 3000,
+  "stay": [
+    0.2,
+    0.8
+  ],
+  "audit_budgets": [
+    100,
+    500
+  ],
+  "seeds": [
+    21001
+  ],
+  "topic": "C11",
+  "stage": "smoke",
+  "protocol_version": 4.2,
+  "lengths": [
+    3,
+    4
+  ],
+  "moment_sets": [
+    "marginal",
+    "neighbor",
+    "full"
+  ],
+  "intervals": [
+    "hoeffding",
+    "empirical_bernstein",
+    "exact_binomial"
+  ],
+  "decomposition_moments": [
+    "neighbor"
+  ],
+  "decomposition_sources": [
+    "exact_observations",
+    "exact_audit"
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+results/
+data/raw/recorded_data/*
+!data/raw/recorded_data/DATA_SOURCE.md
+data/raw/sphere_house/*
+!data/raw/sphere_house/DATA_SOURCE.md
+data/raw/room_occupancy_estimation/extracted/
+data/raw/room_occupancy_estimation/derived_60s/

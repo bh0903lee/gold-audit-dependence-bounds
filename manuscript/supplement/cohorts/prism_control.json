@@ -1,0 +1,158 @@
+{
+ "cohort": "prism",
+ "positive_control": {
+  "HMM, one-sided error": {
+   "generating_correlation": 0.6755105534359277,
+   "windows": 3584,
+   "labels": 400,
+   "replicates": 300,
+   "results": {
+    "HMM, one-sided error": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9366666666666666,
+     "width": 0.12868194319280182,
+     "positive": 1.0,
+     "median_estimate": 0.6739007847591729,
+     "median_absolute_error": 0.021862961096859646
+    },
+    "HMM, false positives": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.94,
+     "width": 0.13096128932070267,
+     "positive": 1.0,
+     "median_estimate": 0.6738994525449313,
+     "median_absolute_error": 0.021863223903413054
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.94,
+     "width": 0.15821225913507553,
+     "positive": 1.0,
+     "median_estimate": 0.6779427233286539,
+     "median_absolute_error": 0.03037665890224528
+    },
+    "HMM, two latent classes": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9233333333333333,
+     "width": 0.19596786343350922,
+     "positive": 1.0,
+     "median_estimate": 0.6655240300886471,
+     "median_absolute_error": 0.03320314108152511
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.357791629564211,
+     "positive": 0.0
+    }
+   }
+  },
+  "HMM, false positives": {
+   "generating_correlation": 0.6755107469965773,
+   "windows": 3584,
+   "labels": 400,
+   "replicates": 300,
+   "results": {
+    "HMM, one-sided error": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9633333333333334,
+     "width": 0.1299840998849716,
+     "positive": 1.0,
+     "median_estimate": 0.6727121943407175,
+     "median_absolute_error": 0.021649905869836228
+    },
+    "HMM, false positives": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9633333333333334,
+     "width": 0.1327815423684423,
+     "positive": 1.0,
+     "median_estimate": 0.6727124784424965,
+     "median_absolute_error": 0.021649165055867003
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9466666666666667,
+     "width": 0.15926363507682909,
+     "positive": 1.0,
+     "median_estimate": 0.6746217704466969,
+     "median_absolute_error": 0.027320323252446932
+    },
+    "HMM, two latent classes": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9433333333333334,
+     "width": 0.20122140363421648,
+     "positive": 1.0,
+     "median_estimate": 0.6582302049223347,
+     "median_absolute_error": 0.031609460406964496
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3575188356447783,
+     "positive": 0.0
+    }
+   }
+  },
+  "HMM, detection depends on previous state": {
+   "generating_correlation": 0.6003773293957196,
+   "windows": 3584,
+   "labels": 400,
+   "replicates": 300,
+   "results": {
+    "HMM, one-sided error": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.6066666666666667,
+     "width": 0.12241845077488833,
+     "positive": 1.0,
+     "median_estimate": 0.6523298586742152,
+     "median_absolute_error": 0.051952529278495585
+    },
+    "HMM, false positives": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.6066666666666667,
+     "width": 0.12250227996426769,
+     "positive": 1.0,
+     "median_estimate": 0.6523301406836988,
+     "median_absolute_error": 0.05195281128797907
+    },
+    "HMM, detection depends on previous state": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.9266666666666666,
+     "width": 0.1424124446491525,
+     "positive": 1.0,
+     "median_estimate": 0.6018072180321712,
+     "median_absolute_error": 0.0252287084305699
+    },
+    "HMM, two latent classes": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 0.8833333333333333,
+     "width": 0.17784698314056546,
+     "positive": 1.0,
+     "median_estimate": 0.5849681812171422,
+     "median_absolute_error": 0.03388862217184019
+    },
+    "finite-sample N": {
+     "replicates": 300,
+     "empty_rate": 0.0,
+     "coverage": 1.0,
+     "width": 1.3558642107931094,
+     "positive": 0.0
+    }
+   }
+  }
+ }
+}
