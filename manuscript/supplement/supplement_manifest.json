@@ -1,0 +1,201 @@
+{
+  "description": "SHA-256 digests of every file in manuscript/supplement/ except this one; checked by scripts/recompute_values.py",
+  "files": [
+    {
+      "path": "check_stored_certificates.py",
+      "sha256": "18f8742889e8ec066b4bf86445b935156c8abf23f7a392cd25a084335e0d9281"
+    },
+    {
+      "path": "cohorts/border_cohort.json",
+      "sha256": "fc124604a4e786f23a0213a280e50ca73f7c2edc68325f2679dde4058e3ddda2"
+    },
+    {
+      "path": "cohorts/border_control.json",
+      "sha256": "58d30c4b3d0117cf4448b06e7d34325107736859d5d4cac431693d41adb4b270"
+    },
+    {
+      "path": "cohorts/caltech_cohort.json",
+      "sha256": "2447b6f12ea51c262d48d39e4290563b5a7df622542b57c4ab8049bc7c32792b"
+    },
+    {
+      "path": "cohorts/caltech_control.json",
+      "sha256": "4289fd4ac16ae25a74e24f1a448271539ed6daf9890dcd8b6a5be42f82cb114e"
+    },
+    {
+      "path": "cohorts/channel_islands_cohort.json",
+      "sha256": "379bb25a53d76fec6c8878d1c26c2a67daa876d4d54cc4a162a9dbffbeefd3ad"
+    },
+    {
+      "path": "cohorts/channel_islands_control.json",
+      "sha256": "d745807371a94e452b4a640ecbb96618f04921283843dd2b1d2cb9ad00911bbd"
+    },
+    {
+      "path": "cohorts/offices_cohort.json",
+      "sha256": "c0b15ba40aef3420a286f7d556b7d384869c0e1b5267f70995635b71c94d42ad"
+    },
+    {
+      "path": "cohorts/offices_control.json",
+      "sha256": "2408350f6b3969b49bbbf00f17de8f08e5bc428aa03a0b0f0b5d12f37d15ae2e"
+    },
+    {
+      "path": "cohorts/prism2_cohort.json",
+      "sha256": "553b6c4f57827d0868a8dd224d554270fa8fb0fa45d64be9054fb2a67b941537"
+    },
+    {
+      "path": "cohorts/prism2_control.json",
+      "sha256": "1c4a0b4016daaf149063a7bca3494e2771358b08cc0398dc70fba03a2e78abea"
+    },
+    {
+      "path": "cohorts/prism_cohort.json",
+      "sha256": "b4bfe516cc46865e76bf93ff6bd9f62c4f4720d80bccc04864d9fda81d2ddaca"
+    },
+    {
+      "path": "cohorts/prism_control.json",
+      "sha256": "a649abe2289b437e309fe220f95468b1a139735a7d572ba4c5e6bb7f6bec1d82"
+    },
+    {
+      "path": "empty_set_witnesses.csv",
+      "sha256": "b242a302efe6bdc5f96f2da6465d9eb4ce783474c75fe7e8bc1bcf112efbefe8"
+    },
+    {
+      "path": "extension_numbers.json",
+      "sha256": "d64391ae3dbc10e3d17f8d9f1ee2383f7b09227033d1c3128e8f791309c97201"
+    },
+    {
+      "path": "extensions/application_sensitivity_B200.json",
+      "sha256": "c5298ea8215d1077980fe085c48620c52a5b95ae9bba45d3125e458560808aa4"
+    },
+    {
+      "path": "extensions/application_sensitivity_B50.json",
+      "sha256": "96f04b6d8454a1ecb86f1ab92210085d1a5ff90992c9eeb8be9d1fa8558e7b67"
+    },
+    {
+      "path": "extensions/application_summary.json",
+      "sha256": "2a9e2065ee7e51357046217d02c1b02dfd177cf089f7ede279eb3cdfa29047b7"
+    },
+    {
+      "path": "extensions/application_thinning_summary.json",
+      "sha256": "01ee7eebc0f337a313833d4c0c50289410a803eef638d334bb493f5f96c6ec3a"
+    },
+    {
+      "path": "extensions/fp_budget_summary.json",
+      "sha256": "d6363f0e6daa3e1d76284fb3530b9c872a493d6dcb1c97649c5ee950c7873cc0"
+    },
+    {
+      "path": "extensions/fp_certificate_verification.json",
+      "sha256": "b145273a9d75db4fa475d272cf3b1c29e44e1bbbc93a71d7b9cb8aca365dc60e"
+    },
+    {
+      "path": "extensions/fp_gap_certificate.json",
+      "sha256": "512574f0bd3c05fe620adbac3d8d19f0425bf21602df00a4903fd5f0957dbd90"
+    },
+    {
+      "path": "extensions/fp_gluing_certificate.json",
+      "sha256": "bee15827a4b9b4bfa59a458e3f1331a00d204390ff06cfea4341cc558453c032"
+    },
+    {
+      "path": "extensions/fp_population_rows.jsonl",
+      "sha256": "18a0ac75f846804bedbbbc4da7ed11854eb8098a8e3a2f5f60c579cdfd56a2b6"
+    },
+    {
+      "path": "extensions/fp_population_summary.json",
+      "sha256": "631ff427736cf1f8aae8c3fc435d86eb4300f21269313aca6c68288b97bf2965"
+    },
+    {
+      "path": "extensions/laws_summary.json",
+      "sha256": "36165be7b67a811cab4c5026fc2574d8f04f78e84a4b1300eb03dfb63edbd683"
+    },
+    {
+      "path": "extensions/overlap_summary.json",
+      "sha256": "e5834522221c077bd234fc9d8358363e1bf2c922e0cc4d27f1d9cef33b6bba48"
+    },
+    {
+      "path": "extensions/paired_budget_summary.json",
+      "sha256": "2b024d721edabe3c233d622ba31ec40de2a256db12585985c324c3703907dc7b"
+    },
+    {
+      "path": "extensions/room_occupancy_manifest.json",
+      "sha256": "5abd739cbd3f9f447f724d5f00ed87d5ca4cbf04d6737173e3ff23e8c0dac386"
+    },
+    {
+      "path": "extensions/runtime_summary.json",
+      "sha256": "5a8b52f601bc5e3f051e4e836aaccd527c97ecf8160437ec9594e0f9c60c2c32"
+    },
+    {
+      "path": "extensions/sphere_summary.json",
+      "sha256": "8b11bea3afe564533ebe1161967be92271e38426599fb8bb1013b361d314f8b8"
+    },
+    {
+      "path": "extensions/verify_fp_certificates.py",
+      "sha256": "fe027edc732c00ea04fed251f0eb89ccd1f066bec51e624fb3776e073c96a518"
+    },
+    {
+      "path": "main_study_full_audit_fallbacks.csv",
+      "sha256": "24f5640f90805f224eed963b87eb46c0a2da134d3594ebe4e0fa12f155baef63"
+    },
+    {
+      "path": "main_study_independent_replay.json",
+      "sha256": "b0e9377597201cf0ec53371793cc32e2492840d6d555ffddbb33fa692bb8e0e9"
+    },
+    {
+      "path": "main_study_input_manifest.json",
+      "sha256": "33249d767ea09974294f3e1874429c41a2efc7ac30eb3428e39d3f738c3a803f"
+    },
+    {
+      "path": "main_study_rows.csv",
+      "sha256": "0fdc83f4f4bc8fa8178e65244db364d48c019a5debec4328975543f8722935d2"
+    },
+    {
+      "path": "main_study_slack_attribution.json",
+      "sha256": "c8fb050992c7cca40a871f37032581d5317c7cb343a7ff41183f96f78cbc0441"
+    },
+    {
+      "path": "main_study_summary.json",
+      "sha256": "ae9157c83c8de5165be20b710c567f57277c67969a9f033194fa1d05c56bb8e0"
+    },
+    {
+      "path": "population_summary.json",
+      "sha256": "68da0f76d28771be5b847b457d847515cfd2dc44cf3bba2ace0c5ae3783f0cc3"
+    },
+    {
+      "path": "reported_values.json",
+      "sha256": "e7e629a2d77a1beaae5973cb3437f979a3cc44785bcf7407dc09dad9752c2302"
+    },
+    {
+      "path": "sixvar_violation_numbers.json",
+      "sha256": "18dbfc2232a9714d5bd5c260ecd379cd4b115aae15491fbc3860e97354494e64"
+    },
+    {
+      "path": "sixvar_violations/analysis_common.py",
+      "sha256": "cee656e45d3f920cba64978d0289959f8dc698e40e68099df3abe19d13259ba3"
+    },
+    {
+      "path": "sixvar_violations/analysis_sixvar.json",
+      "sha256": "b9050bcfbaea69ea361bae88f6541c820d4ba5f5eab2f91d711eef12482d15b3"
+    },
+    {
+      "path": "sixvar_violations/analysis_violations.json",
+      "sha256": "ede3d05d6a1d0268b61aaa7d1179525b716828a10fb9822bf087b794edc0e318"
+    },
+    {
+      "path": "sixvar_violations/analyze_sixvar.py",
+      "sha256": "44d8ca68d654706f3c9b9e115d4061c628550a13758822e0ad12585dff71e515"
+    },
+    {
+      "path": "sixvar_violations/analyze_violations.py",
+      "sha256": "3ef0bf0c8b48fde13499376c2dfb7f9c0a4814d9714febf43f015d952e5868d0"
+    },
+    {
+      "path": "sixvar_violations/reanalysis_main_arrays.py",
+      "sha256": "fd1abddd7b9a68a1a20e70592a587842ffbf67818295ec317fe0292c11064743"
+    },
+    {
+      "path": "verify_theorem.json",
+      "sha256": "7a444cde28d37255ee00738df267e3d449c0a931e25631f15fedcf2432a7e3d9"
+    },
+    {
+      "path": "verify_theorem.py",
+      "sha256": "46e85396487538f50c1d3752efa8d97353ffb0339bec2fd3d65370ee047ba39c"
+    }
+  ]
+}

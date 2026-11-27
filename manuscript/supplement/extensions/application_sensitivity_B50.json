@@ -1,0 +1,740 @@
+[
+ {
+  "stratum": "weekday 09-17",
+  "lag_minutes": 1,
+  "n": 904,
+  "days": 4,
+  "theta_record": 0.9977876106194691,
+  "changes_first_pair": 1,
+  "f_hat": 0.00663716814159292,
+  "stationarity_residual": 0.0011061946902654867,
+  "occupied_share": 0.3993362831858407,
+  "false_negative_rate": 0.23545706371191136,
+  "intervals": {
+   "M": {
+    "status": "ok",
+    "lower": 0.3982300884955756,
+    "upper": 0.9999999999999997,
+    "width": 0.601769911504424,
+    "min_changes_at_upper": 1.5054624213917123e-13,
+    "record_inside": true,
+    "record_gap": 0.0
+   },
+   "N": {
+    "status": "ok",
+    "lower": 0.743362831858407,
+    "upper": 0.995575221238938,
+    "width": 0.25221238938053103,
+    "min_changes_at_upper": 2.000000000000003,
+    "record_inside": false,
+    "record_gap": 0.0022123893805310324
+   },
+   "F": {
+    "status": "ok",
+    "lower": 0.747787610619469,
+    "upper": 0.9955752212389382,
+    "width": 0.2477876106194692,
+    "min_changes_at_upper": 1.999999999999953,
+    "record_inside": false,
+    "record_gap": 0.0022123893805309214
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.944692224441194,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8752614596393566,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4359674698683818,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday 09-17",
+  "lag_minutes": 2,
+  "n": 892,
+  "days": 4,
+  "theta_record": 0.9932735426008968,
+  "changes_first_pair": 3,
+  "f_hat": 0.006726457399103139,
+  "stationarity_residual": 0.0011210762331838565,
+  "occupied_share": 0.3957399103139013,
+  "false_negative_rate": 0.23796033994334279,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9706408549304206,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8851932168927077,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4392852249125891,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday 09-17",
+  "lag_minutes": 3,
+  "n": 882,
+  "days": 4,
+  "theta_record": 0.9886621315192744,
+  "changes_first_pair": 5,
+  "f_hat": 0.006802721088435374,
+  "stationarity_residual": 0.0022675736961451248,
+  "occupied_share": 0.3934240362811791,
+  "false_negative_rate": 0.23631123919308358,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.971184753530936,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8912242202690712,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4330374182185677,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday 09-17",
+  "lag_minutes": 5,
+  "n": 862,
+  "days": 4,
+  "theta_record": 0.9791183294663574,
+  "changes_first_pair": 9,
+  "f_hat": 0.0069605568445475635,
+  "stationarity_residual": 0.0069605568445475635,
+  "occupied_share": 0.388631090487239,
+  "false_negative_rate": 0.2417910447761194,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9745934295271323,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8956569788814552,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4464921321654376,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days 09-17",
+  "lag_minutes": 1,
+  "n": 1387,
+  "days": 6,
+  "theta_record": 0.9942321557317952,
+  "changes_first_pair": 4,
+  "f_hat": 0.007930785868781542,
+  "stationarity_residual": 0.0007209805335255948,
+  "occupied_share": 0.4260994953136265,
+  "false_negative_rate": 0.27749576988155666,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9518626510013035,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8745029825727508,
+    "empty_sets": 1,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.514318428490901,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days 09-17",
+  "lag_minutes": 2,
+  "n": 1369,
+  "days": 6,
+  "theta_record": 0.9868517165814463,
+  "changes_first_pair": 9,
+  "f_hat": 0.008035062089116142,
+  "stationarity_residual": 0.0007304601899196494,
+  "occupied_share": 0.42366691015339664,
+  "false_negative_rate": 0.2775862068965517,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9768798042097255,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.884877594774791,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4948505541640178,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days 09-17",
+  "lag_minutes": 3,
+  "n": 1355,
+  "days": 6,
+  "theta_record": 0.9793357933579335,
+  "changes_first_pair": 14,
+  "f_hat": 0.008118081180811807,
+  "stationarity_residual": 0.002214022140221402,
+  "occupied_share": 0.4228782287822878,
+  "false_negative_rate": 0.2757417102966841,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9810859104344993,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8857133471796015,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4828878594271564,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days 09-17",
+  "lag_minutes": 5,
+  "n": 1327,
+  "days": 6,
+  "theta_record": 0.9638281838733986,
+  "changes_first_pair": 24,
+  "f_hat": 0.008289374529012811,
+  "stationarity_residual": 0.006782215523737754,
+  "occupied_share": 0.4212509419743783,
+  "false_negative_rate": 0.2808586762075134,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.9827820018237823,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.8913835629517395,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5021445156774278,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday all hours",
+  "lag_minutes": 1,
+  "n": 3232,
+  "days": 5,
+  "theta_record": 0.9987623762376238,
+  "changes_first_pair": 2,
+  "f_hat": 0.0027846534653465345,
+  "stationarity_residual": 0.0006188118811881188,
+  "occupied_share": 0.17698019801980197,
+  "false_negative_rate": 0.17482517482517482,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4721380969011677,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4857492550086226,
+    "empty_sets": 1,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.0013337650110232,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday all hours",
+  "lag_minutes": 2,
+  "n": 3216,
+  "days": 5,
+  "theta_record": 0.9968905472636815,
+  "changes_first_pair": 5,
+  "f_hat": 0.002798507462686567,
+  "stationarity_residual": 0.0009328358208955224,
+  "occupied_share": 0.17568407960199006,
+  "false_negative_rate": 0.1752212389380531,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4676023637342268,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.480479932718982,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 0.9854138110288425,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday all hours",
+  "lag_minutes": 3,
+  "n": 3204,
+  "days": 5,
+  "theta_record": 0.9943820224719101,
+  "changes_first_pair": 9,
+  "f_hat": 0.0028089887640449437,
+  "stationarity_residual": 0.001560549313358302,
+  "occupied_share": 0.1750936329588015,
+  "false_negative_rate": 0.17290552584670232,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4659144920850786,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4796708388758353,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 0.9864306567084037,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "weekday all hours",
+  "lag_minutes": 5,
+  "n": 3180,
+  "days": 5,
+  "theta_record": 0.989937106918239,
+  "changes_first_pair": 16,
+  "f_hat": 0.002830188679245283,
+  "stationarity_residual": 0.002830188679245283,
+  "occupied_share": 0.1742138364779874,
+  "false_negative_rate": 0.17148014440433212,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.4596424575187092,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.472901652068144,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 0.9849016352471313,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days all hours",
+  "lag_minutes": 1,
+  "n": 5215,
+  "days": 7,
+  "theta_record": 0.9976989453499521,
+  "changes_first_pair": 6,
+  "f_hat": 0.0028763183125599234,
+  "stationarity_residual": 0.0003835091083413231,
+  "occupied_share": 0.186960690316395,
+  "false_negative_rate": 0.24820512820512822,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5231649670947123,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5374063952251558,
+    "empty_sets": 2,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.0452658270174187,
+    "empty_sets": 1,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days all hours",
+  "lag_minutes": 2,
+  "n": 5193,
+  "days": 7,
+  "theta_record": 0.9949932601579049,
+  "changes_first_pair": 13,
+  "f_hat": 0.0028885037550548816,
+  "stationarity_residual": 0.0005777007510109763,
+  "occupied_share": 0.18601964182553438,
+  "false_negative_rate": 0.2474120082815735,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5213695665593558,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5355818800477457,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.0210532061055924,
+    "empty_sets": 1,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days all hours",
+  "lag_minutes": 3,
+  "n": 5177,
+  "days": 7,
+  "theta_record": 0.991887193355225,
+  "changes_first_pair": 21,
+  "f_hat": 0.002897430944562488,
+  "stationarity_residual": 0.0009658103148541626,
+  "occupied_share": 0.1858219045779409,
+  "false_negative_rate": 0.24532224532224534,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5197736349042894,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5340218307186264,
+    "empty_sets": 1,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.018739998766468,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ },
+ {
+  "stratum": "all days all hours",
+  "lag_minutes": 5,
+  "n": 5145,
+  "days": 7,
+  "theta_record": 0.9860058309037901,
+  "changes_first_pair": 36,
+  "f_hat": 0.0029154518950437317,
+  "stationarity_residual": 0.001749271137026239,
+  "occupied_share": 0.18561710398445092,
+  "false_negative_rate": 0.24607329842931938,
+  "intervals": {
+   "M": {
+    "status": "empty"
+   },
+   "N": {
+    "status": "empty"
+   },
+   "F": {
+    "status": "empty"
+   }
+  },
+  "finite_sample": {
+   "replicates": 1000,
+   "budget": 50,
+   "M": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5171468431155408,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "N": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.5326780481052191,
+    "empty_sets": 0,
+    "solver_failures": 0
+   },
+   "F": {
+    "contains_record_target": 1.0,
+    "mean_width": 1.0244963752266392,
+    "empty_sets": 0,
+    "solver_failures": 0
+   }
+  }
+ }
+]

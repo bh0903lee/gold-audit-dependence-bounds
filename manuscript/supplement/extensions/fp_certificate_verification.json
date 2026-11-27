@@ -1,0 +1,77 @@
+{
+  "F": [
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true
+    },
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true
+    }
+  ],
+  "N6": [
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true
+    },
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true
+    }
+  ],
+  "gluing": [
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true,
+      "triple_nonnegative": true,
+      "triple_normalized": true,
+      "left_pair": true,
+      "right_pair": true,
+      "full_audit": true,
+      "reported_h": true,
+      "target": true
+    },
+    {
+      "primal_nonnegative": true,
+      "equalities": true,
+      "inequalities": true,
+      "dual_sign": true,
+      "dual_slack": true,
+      "zero_duality_gap": true,
+      "reported_objective": true,
+      "triple_nonnegative": true,
+      "triple_normalized": true,
+      "left_pair": true,
+      "right_pair": true,
+      "full_audit": true,
+      "reported_h": true,
+      "target": true
+    }
+  ],
+  "all_checks_pass": true
+}

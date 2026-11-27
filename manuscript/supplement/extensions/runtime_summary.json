@@ -1,0 +1,51 @@
+{
+ "processor": "AMD EPYC 9355 32-Core Processor",
+ "threads": 1,
+ "N": 50000,
+ "B": 500,
+ "interval": "exact_binomial",
+ "rows": [
+  {
+   "L": 3,
+   "moments": "marginal",
+   "repetitions": 30,
+   "median_seconds": 0.009559220168739557,
+   "max_seconds": 0.009721103124320507
+  },
+  {
+   "L": 3,
+   "moments": "neighbor",
+   "repetitions": 30,
+   "median_seconds": 0.009757422376424074,
+   "max_seconds": 0.009842343628406525
+  },
+  {
+   "L": 3,
+   "moments": "full",
+   "repetitions": 30,
+   "median_seconds": 0.010196871124207973,
+   "max_seconds": 0.01032919343560934
+  },
+  {
+   "L": 4,
+   "moments": "marginal",
+   "repetitions": 30,
+   "median_seconds": 0.01861636433750391,
+   "max_seconds": 0.018741046078503132
+  },
+  {
+   "L": 4,
+   "moments": "neighbor",
+   "repetitions": 30,
+   "median_seconds": 0.019117088988423347,
+   "max_seconds": 0.02082713134586811
+  },
+  {
+   "L": 4,
+   "moments": "full",
+   "repetitions": 30,
+   "median_seconds": 0.020019722171127796,
+   "max_seconds": 0.020313221029937267
+  }
+ ]
+}
